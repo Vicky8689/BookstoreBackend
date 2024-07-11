@@ -1,0 +1,17 @@
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\BusineesLayer.deps.json
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\BusineesLayer.dll
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\BusineesLayer.pdb
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\BookStore\Backend\BookStore\BusineesLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.csproj.AssemblyReference.cache
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.AssemblyInfoInputs.cache
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.AssemblyInfo.cs
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.csproj.CoreCompileInputs.cache
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\Businees.42AA19B0.Up2Date
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.dll
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\refint\BusineesLayer.dll
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\BusineesLayer.pdb
+D:\BookStore\Backend\BookStore\BusineesLayer\obj\Debug\net6.0\ref\BusineesLayer.dll

@@ -1,0 +1,17 @@
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+D:\BookStore\Backend\BookStore\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+D:\BookStore\Backend\BookStore\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache

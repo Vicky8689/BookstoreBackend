@@ -1,0 +1,12 @@
+D:\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+D:\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
