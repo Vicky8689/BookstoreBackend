@@ -80,6 +80,9 @@ namespace RepositoryLayer.Migrations
                     b.Property<int>("bookQuantity")
                         .HasColumnType("int");
 
+                    b.Property<bool>("isPurchase")
+                        .HasColumnType("bit");
+
                     b.HasKey("CartId");
 
                     b.HasIndex("UserId");
@@ -87,6 +90,59 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("bookId");
 
                     b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.OrderEntity", b =>
+                {
+                    b.Property<int>("orderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("orderId"), 1L, 1);
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("cAdd")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("cCity")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("cMobil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("cName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("cState")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("orderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("totalPrice")
+                        .HasColumnType("int");
+
+                    b.Property<int>("totladiscountPrice")
+                        .HasColumnType("int");
+
+                    b.HasKey("orderId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Order");
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.UserEntity", b =>
@@ -161,6 +217,17 @@ namespace RepositoryLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("book");
+
+                    b.Navigation("user");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.OrderEntity", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "user")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("user");
                 });

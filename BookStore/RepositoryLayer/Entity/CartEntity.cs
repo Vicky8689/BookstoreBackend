@@ -18,6 +18,9 @@ namespace RepositoryLayer.Entity
         [Required]
         public int bookQuantity { get; set; }
 
+        [Required]
+        public bool isPurchase { get; set; }=false;
+
         public int UserId { get; set; }
         [ForeignKey(nameof(UserId))]
         public UserEntity user { get; set; }
@@ -25,5 +28,6 @@ namespace RepositoryLayer.Entity
         public int bookId { get; set; }
         [ForeignKey(nameof(bookId))]
         public BookEntity book { get; set; }
+
     }
 }

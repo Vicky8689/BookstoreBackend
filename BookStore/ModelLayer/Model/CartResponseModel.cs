@@ -31,6 +31,7 @@ namespace ModelLayer.Model
 
         [Required]
         public DateTime updatedAt { get; set; }
+        public bool isPurchease { get; set; }
 
     }
 }

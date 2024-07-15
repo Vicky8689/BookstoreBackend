@@ -51,7 +51,13 @@ namespace BusineesLayer.Services
         }
 
 
+        public UserEntity GetProfile(int userId)
+        {
+          return _userRl.GetProfile(userId);
+        }
 
-    
+
+
+
     }
 }

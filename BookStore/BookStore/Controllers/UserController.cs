@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer;
 using ModelLayer.Model;
+using RepositoryLayer.Entity;
+using System.Security.Claims;
 
 namespace BookStore.Controllers
 {
@@ -75,7 +77,30 @@ namespace BookStore.Controllers
             return Ok(response);
            
         }
-       
+
+        //get all profile
+        [HttpGet]
+        [Route("allprofile")]
+        public IActionResult GetProfileController()
+        {
+            ResponseModel<UserEntity> response = new ResponseModel<UserEntity>();
+            var id = User.FindFirstValue("UserID");
+            int userId = Convert.ToInt32(id);
+            var result = _userBL.GetProfile(userId);
+            if(result != null)
+            {
+                response.Message = "success";
+                response.Data = result;
+
+            }
+            else
+            {
+                response.Message = "Unsuccess";
+                response.Success=false;
+            }
+            return Ok(response );
+        } 
+
 
 
     }

@@ -111,6 +111,7 @@ namespace RepositoryLayer.Services
                 data.discountPrice = bookdata.discountPrice;
                 data.createdAt = bookdata.createdAt;
                 data.updatedAt = bookdata.updatedAt;
+                data.isPurchease = item.isPurchase;
                 alllist.Add(data);
             }
 

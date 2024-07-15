@@ -13,5 +13,6 @@ namespace RepositoryLayer.Interface
     {
         public UserEntity UserSignup(UserModel user, string role);
         public UserEntity Login(LoginRequestModel model);
+        public UserEntity GetProfile(int userId);
     }
 }

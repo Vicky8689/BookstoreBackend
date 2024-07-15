@@ -14,5 +14,6 @@ namespace BusineesLayer.Interface
     {
         public UserEntity UserSignup(UserModel user, string role);
         public string Login(LoginRequestModel model);
+        public UserEntity GetProfile(int userId);
     }
 }

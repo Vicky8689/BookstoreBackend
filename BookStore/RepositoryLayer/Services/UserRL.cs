@@ -45,10 +45,6 @@ namespace RepositoryLayer.Services
             {
                 return null;
             }
-
-
-
-
             
         }
 
@@ -56,6 +52,13 @@ namespace RepositoryLayer.Services
         {  
              return _context.Users.FirstOrDefault(x => x.Email == model.Email);
            
+        }
+
+        public UserEntity GetProfile(int userId)
+        {
+
+            return _context.Users.FirstOrDefault(x => x.UserId == userId);
+
         }
 
 

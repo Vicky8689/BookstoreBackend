@@ -18,6 +18,8 @@ builder.Services.AddScoped<IUserRl, UserRL>();
 
 builder.Services.AddScoped<IBookBL, BookBL>();
 builder.Services.AddScoped<IBookRL, BookRL>();
+builder.Services.AddScoped<IOrderBL, OrderBL>();
+builder.Services.AddScoped<IOrderRL, OrderRL>();
 
 builder.Services.AddDbContext<BookStoreContext>(
     option =>

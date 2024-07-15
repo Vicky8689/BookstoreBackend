@@ -79,3 +79,4 @@ D:\BookStore\Backend\BookStore\BookStore\bin\Debug\net6.0\System.Web.WebPages.dl
 D:\BookStore\Backend\BookStore\BookStore\bin\Debug\net6.0\WebMatrix.Data.dll
 D:\BookStore\Backend\BookStore\BookStore\bin\Debug\net6.0\WebMatrix.WebData.dll
 D:\BookStore\Backend\BookStore\BookStore\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\BookStore\Backend\BookStore\BookStore\obj\Debug\net6.0\BookStore.sourcelink.json
