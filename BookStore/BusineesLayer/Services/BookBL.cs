@@ -56,6 +56,15 @@ namespace BusineesLayer.Services
         {
             return _bookRL.deletewishlist(UserId, bookid);
         }
+        public FeedBackEntity addfeedBack(int userid, AddFeedBackRequestModel model)
+        {
+            return _bookRL.addfeedBack(userid, model);
+
+        }
+        public List<FeedbackResponseModel> getAllFeedback(int bookid)
+        {
+            return _bookRL.getAllFeedback(bookid);
+        }
 
     }
 }

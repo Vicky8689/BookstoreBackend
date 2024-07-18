@@ -23,6 +23,9 @@ namespace BusineesLayer.Interface
         public bool AddWishlist(int userid, int bookid);
         public List<WishlistResponseModel> GetAllWishlist(int UserId);
         public bool deletewishlist(int UserId, int bookid);
+        public FeedBackEntity addfeedBack(int userid, AddFeedBackRequestModel model);
+
+        public List<FeedbackResponseModel> getAllFeedback(int bookid);
 
 
     }

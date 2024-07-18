@@ -21,5 +21,7 @@ namespace RepositoryLayer.Interface
 
         public bool AddWishlist(int userid, int bookid);
         public bool deletewishlist(int UserId, int bookid);
+        public FeedBackEntity addfeedBack(int userid, AddFeedBackRequestModel model);
+        public List<FeedbackResponseModel> getAllFeedback(int bookid);
     }
 }

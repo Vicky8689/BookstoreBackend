@@ -267,6 +267,56 @@ namespace BookStore.Controllers
 
         }
 
+        [HttpPost]
+        [Authorize]
+        [Route("addFeedBack")]
+        public IActionResult AddfeedBackController(AddFeedBackRequestModel model
+            )
+        {
+            var id = User.FindFirstValue("UserID");
+            int userId = Convert.ToInt32(id);
+            var result = _bookBL.addfeedBack(userId,model);
+            ResponseModel<FeedBackEntity> response = new ResponseModel<FeedBackEntity>();
+            if (result != null)
+            {
+                response.Message = "success";
+                response.Data = result;
+            }
+            else
+            {
+                response.Message = "Unsuccesfull";
+                response.Success = false;
+            }
+            return Ok(response);
+
+
+        }
+
+
+
+        //get all feedback
+
+        [HttpGet]
+        [Route("getFeedBack")]
+        public IActionResult getfeedBackController([FromQuery] int bookId )
+        {
+          
+            var result = _bookBL.getAllFeedback(bookId);
+            ResponseModel<List<FeedbackResponseModel>> response = new ResponseModel<List<FeedbackResponseModel>>();
+            if (result != null)
+            {
+                response.Message = "success";
+                response.Data = result;
+            }
+            else
+            {
+                response.Message = "Unsuccesfull";
+                response.Success = false;
+            }
+            return Ok(response);
+
+
+        }
 
 
     }

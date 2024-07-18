@@ -30,6 +30,10 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("bookId"), 1L, 1);
 
+                    b.Property<string>("FeedBack")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("author")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -90,6 +94,34 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("bookId");
 
                     b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.FeedBackEntity", b =>
+                {
+                    b.Property<int>("FeedBackid")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedBackid"), 1L, 1);
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("bookId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("feedback")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("FeedBackid");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("bookId");
+
+                    b.ToTable("FeedBack");
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.OrderEntity", b =>
@@ -203,6 +235,25 @@ namespace RepositoryLayer.Migrations
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.CartEntity", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "user")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryLayer.Entity.BookEntity", "book")
+                        .WithMany()
+                        .HasForeignKey("bookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("book");
+
+                    b.Navigation("user");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.FeedBackEntity", b =>
                 {
                     b.HasOne("RepositoryLayer.Entity.UserEntity", "user")
                         .WithMany()

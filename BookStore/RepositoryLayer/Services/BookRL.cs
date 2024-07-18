@@ -212,6 +212,42 @@ namespace RepositoryLayer.Services
 
         }
 
+        //addfeedback
+        public FeedBackEntity addfeedBack(int userid,AddFeedBackRequestModel model)
+        {
+            FeedBackEntity feedBack = new FeedBackEntity();
+            feedBack.bookId= model.bookId;
+            feedBack.feedback = model.feedback;
+            feedBack.UserId = userid;
+            _context.FeedBack.Add(feedBack);
+            _context.SaveChanges();
+            return feedBack;
+
+        }
+        //get feedback 
+        public List<FeedbackResponseModel> getAllFeedback(int bookid)
+        {
+            var result = _context.FeedBack.Where(x => x.bookId == bookid).ToList();
+            List<FeedbackResponseModel> alldata = new List<FeedbackResponseModel>();
+
+            foreach (var item in result)
+            {
+                var userdata = _context.Users.FirstOrDefault(x=>x.UserId==item.UserId);
+                if (userdata != null)
+                {
+
+                    FeedbackResponseModel feed = new FeedbackResponseModel();
+                    feed.username = userdata.Name;
+                    feed.msg = item.feedback;
+
+                    alldata.Add(feed);
+                }
+            }
+            return alldata;
+
+
+
+        }
 
 
     }
