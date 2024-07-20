@@ -14,13 +14,13 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7053;http://localhost:5241",
+      "applicationUrl": "https://localhost:7053;http://localhost:5241 ;https://192.168.1.107:44332",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
 
         "jwtValidAudience": "User",
         "jwtValidIssuer": "https://localhost:44326",
-        "jwtSecretKey": "MySecreateKey123",
+        "jwtSecretKey": "MySecreateKey123"
 
       }
     },

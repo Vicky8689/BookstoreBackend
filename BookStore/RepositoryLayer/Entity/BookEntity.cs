@@ -36,6 +36,6 @@ namespace RepositoryLayer.Entity
         [Required]
         public DateTime updatedAt { get; set; }
 
-        public string FeedBack {  get; set; }
+       
     }
 }

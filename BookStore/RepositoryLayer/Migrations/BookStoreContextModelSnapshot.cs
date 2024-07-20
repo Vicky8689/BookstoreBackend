@@ -30,10 +30,6 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("bookId"), 1L, 1);
 
-                    b.Property<string>("FeedBack")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("author")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

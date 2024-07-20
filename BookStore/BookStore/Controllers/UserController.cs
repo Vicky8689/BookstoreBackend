@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ModelLayer;
 using ModelLayer.Model;
 using RepositoryLayer.Entity;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace BookStore.Controllers
@@ -65,6 +66,10 @@ namespace BookStore.Controllers
             {
                 
                 response.Message = result;
+                var tokenHandelar = new JwtSecurityTokenHandler();
+                var jwtTokenObj = tokenHandelar.ReadJwtToken(result);
+                var claim = jwtTokenObj.Claims;
+                response.Data = claim.FirstOrDefault(x => x.Type == "Role")?.Value;
 
              
             }

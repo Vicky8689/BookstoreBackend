@@ -70,8 +70,6 @@ builder.Services.AddSwaggerGen(options =>
 
 
 
-
-
 //Addjwt authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -117,7 +115,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseRouting();
 app.UseCors();
 app.UseAuthentication();
