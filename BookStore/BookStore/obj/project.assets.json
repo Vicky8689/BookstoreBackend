@@ -3002,11 +3002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BookStore\\Backend\\BookStore\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "D:\\VickyData\\BookStore\\Backend\\BookStore\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "D:\\BookStore\\Backend\\BookStore\\BookStore\\BookStore.csproj",
+      "projectPath": "D:\\VickyData\\BookStore\\Backend\\BookStore\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\Niraj\\.nuget\\packages\\",
-      "outputPath": "D:\\BookStore\\Backend\\BookStore\\BookStore\\obj\\",
+      "outputPath": "D:\\VickyData\\BookStore\\Backend\\BookStore\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3027,14 +3027,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\BookStore\\Backend\\BookStore\\BusineesLayer\\BusineesLayer.csproj": {
-              "projectPath": "D:\\BookStore\\Backend\\BookStore\\BusineesLayer\\BusineesLayer.csproj"
+            "D:\\VickyData\\BookStore\\Backend\\BookStore\\BusineesLayer\\BusineesLayer.csproj": {
+              "projectPath": "D:\\VickyData\\BookStore\\Backend\\BookStore\\BusineesLayer\\BusineesLayer.csproj"
             },
-            "D:\\BookStore\\Backend\\BookStore\\ModelLayer\\ModelLayer.csproj": {
-              "projectPath": "D:\\BookStore\\Backend\\BookStore\\ModelLayer\\ModelLayer.csproj"
+            "D:\\VickyData\\BookStore\\Backend\\BookStore\\ModelLayer\\ModelLayer.csproj": {
+              "projectPath": "D:\\VickyData\\BookStore\\Backend\\BookStore\\ModelLayer\\ModelLayer.csproj"
             },
-            "D:\\BookStore\\Backend\\BookStore\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\BookStore\\Backend\\BookStore\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\VickyData\\BookStore\\Backend\\BookStore\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\VickyData\\BookStore\\Backend\\BookStore\\RepositoryLayer\\RepositoryLayer.csproj"
             }
           }
         }

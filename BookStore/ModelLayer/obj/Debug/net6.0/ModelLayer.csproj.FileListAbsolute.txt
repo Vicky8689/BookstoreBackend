@@ -11,3 +11,16 @@ D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
 D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
 D:\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+D:\VickyData\BookStore\Backend\BookStore\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
